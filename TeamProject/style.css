@@ -58,6 +58,26 @@ ul {
 	padding: 1;
 }
 
+/* Bootstrap stuff: */
+.alert {
+    position: relative;
+    padding: .75rem 1.25rem;
+    margin-bottom: 1rem;
+    border-radius:.25rem;
+}
+
+.alert-success {
+    color: darkslategray;
+    background-color: palegreen;
+    border: 1px ridge darkslategray;
+}
+
+.alert-info {
+    color: darkblue;
+    background-color: paleturquoise;
+    border: 1px ridge darkblue;
+}
+
 /* End of what Joe did */
 
 /* Dylan's page */
