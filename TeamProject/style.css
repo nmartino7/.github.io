@@ -98,6 +98,17 @@ bg-warning {
 	background-color: gold;
 }
 
+d-flex {
+	display:-ms-flexbox;
+	display:flex;
+}
+
+d-inline-flex {
+	display:-ms-inline-flexbox;
+	display:inline-flex;
+}
+/*^^^I learned all this from w3schools but it's not a direct copy/paste.*/
+
 /* End of what Joe did */
 
 /* Dylan's page */
