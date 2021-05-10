@@ -78,12 +78,19 @@ ul {
     border: 1px ridge darkblue;
 }
 
+.jumbotron {
+	padding:2rem 1rem;
+	margin-bottom:2rem;
+	background-color:lightpink;
+	border-radius:.3rem
+}
+
 .container-mt-3 { /*Flexbox container*/
 	
 }
 
 p-2 { /*Flexbox padding (note: this was pasted from w3schools because it was hard to get done)*/
-	padding:.5rem!important
+	padding:.5rem;
 }
 /*Flexboxes:*/
 bg-success {
