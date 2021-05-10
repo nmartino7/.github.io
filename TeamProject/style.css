@@ -78,6 +78,26 @@ ul {
     border: 1px ridge darkblue;
 }
 
+.container-mt-3 { /*Flexbox container*/
+	
+}
+
+p-2 { /*Flexbox padding (note: this was pasted from w3schools because it was hard to get done)*/
+	padding:.5rem!important
+}
+/*Flexboxes:*/
+bg-success {
+	background-color:green;
+}
+
+bg-danger {
+	background-color: red;
+}
+
+bg-warning {
+	background-color: gold;
+}
+
 /* End of what Joe did */
 
 /* Dylan's page */
