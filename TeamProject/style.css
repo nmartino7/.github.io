@@ -343,8 +343,9 @@ d-inline-flex {
 
 /* Noah's page */
 #bgnoah {
-    background-color: #d2b48c;
-    
+    background-image:url(https://www.amtrakvacations.com/sites/amtrak/files/styles/hero/public/images/seattle.jpg?h=5a5fc591&itok=u7M-pblq);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 table{
     display: block;
@@ -352,9 +353,8 @@ table{
     box-shadow: 10px 10px 15px #4b2e83;
     border: lightblue;
     width: 500;
+}
 /* text for page */
-#textethan{
-    font-family: verdana;
-    font-size: 20px;
+
     /* text-align: center; */
 }
