@@ -121,8 +121,14 @@ d-inline-flex {
 /* Dylan's page */
 
 /* Bootstrap start */
-#col-sm-4 {
-    
+.container {
+
+}
+.row {
+
+}
+.col-sm-4 {
+
 }
 /* Bootstrap end */
 
