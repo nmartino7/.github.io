@@ -6,58 +6,85 @@
 			<title>Team 4, B IMD 233 w/ CSS </title>
 			<meta name="description" content="">
 			<meta name="viewport" content="width=device-width, initial-scale=1">
-			<link rel="stylesheet" href="joestyle.css">
+			<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
 			<!--This is my internal CSS, the rest is what I added to style.css -->
 			<style>
+				.topnav {
+    					overflow: hidden;
+   					background-color: #333333;
+  				}
+				
+				body {
+					background-color: #EEEEEE;
+				}
+  
+			       .topnav a {
+    					float: left;
+    					color: #f2f2f2;
+    					text-align: center;
+   					padding: 14px 16px;
+    					text-decoration: none;
+    					font-size: 17px;
+  				}
+  
+  				.topnav a:hover {
+    					background-color: #ddd;
+    					color: black;
+  				}
+				
 				h1 {
-  					font-family: "Comic Sans MS", sans-serif;
 					text-align: center;
+					font-family: sans-serif;
 				}
 				
 				.midtextjoe {
-					font-family: "Comic Sans MS", sans-serif;
+					font-family: sans-serif;
 				}
 				
 				.containertext {
-					font-family: "Comic Sans MS", sans-serif
+					font-family: sans-serif;
 				}
 				
 				.midtext2 {
-					font-family: "Comic Sans MS", sans-serif;
+					font-family: sans-serif;
+				}
+				
+				.textjoe {
+					color: black;
+					font-family: sans-serif;
 				}
 				
 				.thickjoe {
 					font-weight: bold;
-					color: #FFFFFF;
 				}
 				
 				.tablejoe {
 					width: 50%;
-					border: 5px ridge #710193;
-					background-color:#00B7EB;
   					margin-left: auto;
   					margin-right: auto;
+					border: 1px ridge black;
 				}
 				
-				a {
-					font-family: "Comic Sans MS", sans-serif;
-					color: #FFF0F5;
-					background-color: #7F00FF;
+				button {
+					text-align: center;
+				}
+				
+				a {					
+					font-family: sans-serif;
 					text-decoration: underline;
 				}
 				
 				.flexlink {
-					color: aliceblue;
+					color: white;
 				}
 				
 				.tdjoe {
-					font-family: "Comic Sans MS", sans-serif;
+					font-family: sans-serif;
 					font-weight: 3;
+					border: 1px ridge black;
 				}
 				
 				.majorname {
-					color: #B9D9EB;
-					background-color: #111111;
 					text-decoration: underline;
 				}
 				
@@ -70,8 +97,7 @@
 				}
 				
 				li {
-					font-family: "Comic Sans MS", sans-serif;
-					color: #FFFFFF;
+					font-family: sans-serif;
 					margin-top: 10px;
     					margin-left: 10px;
     					margin-right: 100px;
@@ -81,11 +107,7 @@
 				a:hover {
 					color: #FFFFFF;
 					font-weight: 1;
-				}
-				
-				span {
-					color: #FFFFFF;
-					font-family: "Comic Sans MS", sans-serif;
+					background-color: #0000EE;
 				}
 				
 				.buttonlink {
@@ -100,36 +122,34 @@
 			
 		</head>
 		<body>
-			<div class="navbar">
+			<div class="topnav">
 				<a class="active" href="index.html">Home</a>
 				<a href="joe.html">Joe Lollo</a>
 				<a href="dylan.html">Dylan Dang</a>
 				<a href="ethan.html">Ethan Krueger</a>
 				<a href="noah.html">Noah Martino</a>
-			  </div>
+			</div>
 			<span>
 			<div class="alert alert-info"> <!--Bootstrap alert-->
             		<strong>Did you know...?</strong>
             		<br>
-			Joe writes for <em>The Husky Herald</em>, UWB's campus newspaper. <a class="alert-link" href="https://thehuskyherald.com/">Click here to learn more.</a>
+			Joe writes for <em>The Husky Herald</em>, UWB's campus newspaper. <a href="https://thehuskyherald.com/">Click here to learn more.</a>
         		</div>
 			</span>
 			
+			<div class="container mt-1">
 			<div class="jumbotron">
 			<h1>My Name is Joe Lollo</h1>
 			<p id="textjoe">And I'm taking B IMD 233, Web Programming, this quarter. My <a href="https://pronoun.is/they">pronouns are they/them</a>.</p>
 			<h2 class="midtextjoe">I <em>might</em> already know HTML...</h2>
-			<h3 class="midtext2">...but I'm taking this class to learn JS, CSS, and GitHub!</h3> <!--Inline CSS-->
+			<h3 class="midtext2">...but I'm taking this class to learn JS, CSS, and GitHub! This is the updated version with Bootstrap!</h3>
 			</div>
-			
-			<h4 id="textjoe">A copypasta:</h4>
-			<div id="jumbotron">What I think people who are not in the greek System need to understand is that partying isn't just something we do.
-			It's ingrained into our lives. Many people, these days, are perfectly content with sitting on their computers all day playing video games. I used to be a competitive gamer and I used to do this. After joining the Greek system, partying became a new norm that was ingrained into my life. We need it for our wellbeing. It helps us escape society. There have even been studies that show how necessary gatherings are for our wellbeing. The fact that it was stripped away from us, especially by something that barely affects us specifically is very detrimental to our mental state. People are giving us so much crap for it, yet they don't know what it's like for us to be deprived of everything that's fun for us.</div>
-			<span>(this was in response to criticism aimed towards UW Greek life after their continued partying resulted in a recent outbreak of covid-19 that made national headlines)</span>
+			<div class="divjoe">
 			<p class="thickjoe">Below is an unordered list of fun facts about me. If you go into the code, you'll also see how to mark specific words or phrases for emphasis or highlighting.</p> 
 			<ul>
 				<li>I'm a junior at UWB, majoring in <a class="majorname" href="https://www.uwb.edu/culture-literature-arts">Culture, Literature & the Arts</a> and <a class="majorname" href="https://www.uwb.edu/media-communication">Media & Communication Studies</a> with a minor in Computer Science</li>
 				<li>I like to play music, and I've been <em>writing my own</em> lately.</li>
+				<li>I'm Catholic, and I <a href="https://uwnewman.org/">go to church at the UW Seattle campus</a>!</li>
 				<li>I'm also a <strong>huge</strong> gamer and also <a href="https://boardgamegeek.com/collection/user/ChessPiece21?own=1&subtype=boardgame&ff=1">play board games</a> as well, you can see my collection on that link.</li>
 				<li>I go by <a href="https://github.com/ChessPiece21">ChessPiece21</a> or ChessPiece99 on a variety of websites. It comes from "ChessPiece1999," which was my old Newgrounds username from 2010 to 2011. It's a combination of my age/birth year and the fact that I used to play chess when I was younger.</li>
 			</ul>
@@ -139,10 +159,9 @@
 				<li><em>Parks & Rec</em>: Absolutely iconic, so many great characters and moments. Score: <strong>10/10</strong>.</li>
 				<li><em>Brooklyn Nine-Nine</em>: Also iconic, plus it has <a href="https://www.youtube.com/watch?v=ffyKY3Dj5ZE">the best Backstreet Boys reference in history</a>. Score: <strong>Also 10/10</strong>.</li>
 				<li><em>The Good Place</em>: I don't love it as much as the others, but I don't hate it either. The early seasons are great but the show got too repetitive for me until the end. Score: <strong>7/10</strong>.</li>
-				<li><em>(unrankable) Rutherford Falls</em>: I haven't watched this yet, but it's brand new!</li>
+				<li><em>Rutherford Falls</em>: Pretty good so far, I'm only 3 episodes in. I love the character dynamics and the offbeat humor. Score: <strong>6/10</strong></li>
 			</ol>
-			
-			<!--Mark Comment: there should be ways to use styles to center and add borders, etc. to tables. Try to figure that out!-->
+				
 			<center>
 			<table class="tablejoe">
 			<tr>
@@ -167,37 +186,21 @@
 				
 			<p id="textjoe">Finally, here's an image:</p>
 			<img src="https://s3-us-west-2.amazonaws.com/uw-s3-cdn/wp-content/uploads/sites/6/2012/03/04215201/03_26_07_KS_01.jpg" width="500" alt="The cherry blossoms at the University of Washington's Quadrangle (Quad), pink-tinted trees in the springtime with students walking around them." title="UW Cherry Blossoms">
-			<p id="textjoe">If you view this on a screen reader, then the image will show alt text instead - pretty cool!</p>
-			
 			<hr>
-			
-			<div class="container"><!--Boostrap Flexboxes-->
-       			<h2 class="containertext">Flexboxes!</h2>
-       		        <p>I'll just list out three random items, choose which one you like for a surprise.</p>
-                        <div class="d-flex p-3 bg-secondary text-white">
-                        <div class="p-2 bg-success"><a class="link1" href="https://orteil.dashnet.org/cookieclicker/">I want a cookie!</a></div>
-                        <div class="p-2 bg-warning"><a class="link2" href="https://icanhas.cheezburger.com/">I want a cheeseburger!</a></div>
-                        <div class="p-2 bg-danger"><a class="link3" href="https://theuselessweb.com/">I want whatever...</a></div>
-                        </div>
-
-                       <p>Here's the inline version for readability.</p>
-                       <div class="d-inline-flex p-3 bg-secondary text-white">
-                       <div class="p-2 bg-success"><a class="flexlink" href="https://orteil.dashnet.org/cookieclicker/">I want a cookie!</a></div>
-                       <div class="p-2 bg-warning"><a class="flexlink" href="https://icanhas.cheezburger.com/">I want a cheeseburger!</a></div>
-                       <div class="p-2 bg-danger"><a class="flexlink" href="https://theuselessweb.com/">I want whatever...</a></div>
-                        </div>
 				
-				<p>Also, here's a button:</p>
-				<button><a class="button-link" href="https://www.youtube.com/watch?v=F3L376eH09Q">CLICK ME.</a></button>
-
-    </div>
-			<span> <!--Second Bootstrap alert-->
-			<div class="alert alert success"></div>
-			<strong>SUCCESS!</strong>
-            		<br>
-		        You have made it to the end of this page.</a>
-			</span>
-		<!--end of Joe Lollo's section-->
-		</span>
+			<div class="container mt-3"><!--Boostrap Flexboxes-->
+       			<h2 class="containertext" stlye="color:#FFFFFF">Flexboxes!</h2>
+       		        <p>I'll just list out three random items, choose which one you like for a surprise.</p>
+			<div class="d-flex p-3 bg-secondary text-white">
+ 				 <div class="p-2 bg-primary"><a class="flexlink" href="https://orteil.dashnet.org/cookieclicker/">I want a cookie!</a></div>
+  				 <div class="p-2 bg-warning"><a class="flexlink" href="https://icanhas.cheezburger.com/">I want a cheeseburger!</a></div>
+  				 <div class="p-2 bg-primary"><a class="flexlink" href="https://theuselessweb.com/">I want whatever...</a></div>
+			</div>
+				
+				<p style="text-align:center">Also, here's a button:</p>
+				<button type="button" class="btn"><a class="button-link" href="https://www.youtube.com/watch?v=F3L376eH09Q">CLICK ME.</a></button>
+			<div class="alert alert-danger">You have made it to the end of this page.</div>
+			</div>
+			</div>
 		</body>	
 	</html>
