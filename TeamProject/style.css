@@ -119,6 +119,13 @@ d-inline-flex {
 /* End of what Joe did */
 
 /* Dylan's page */
+
+/* Bootstrap start */
+#col-sm-4 {
+    
+}
+/* Bootstrap end */
+
 #bgdylan {
     background-color: rgb(4, 191, 253);
 }
