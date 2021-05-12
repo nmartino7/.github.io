@@ -365,7 +365,9 @@ d-inline-flex {
 
 /* Ethan's page */
 #bgethan {
-    background-color: rgb(136, 125, 66);
+    background-image:url(https://ogden_images.s3.amazonaws.com/www.observertoday.com/images/2020/08/29003327/SUNSET-scaled.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
 }
 /* text for page */
 #textethan{
