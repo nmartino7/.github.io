@@ -152,6 +152,12 @@ d-inline-flex {
   }
 /* Flexbox end */
 
+body  {
+    background-image: url("paper.gif");
+    background-color: #cccccc;
+  }
+  </style>
+
 #bgdylan {
     /* background-color: rgb(103, 27, 190); */
 }
