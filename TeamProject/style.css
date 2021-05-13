@@ -152,8 +152,14 @@ d-inline-flex {
   }
 /* Flexbox end */
 
+body  {
+    background-image: url("https://wallpaperaccess.com/full/723262.gif");
+    background-color: #cccccc;
+  }
+  </style>
+
 #bgdylan {
-    background-color: rgb(103, 27, 190);
+    /* background-color: rgb(103, 27, 190); */
 }
 /* text for page */
 #textdylan{
