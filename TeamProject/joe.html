@@ -8,131 +8,8 @@
 			<meta name="viewport" content="width=device-width, initial-scale=1">
 			<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css">
 			<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-			<!--This is my internal CSS, the rest is what I added to style.css -->
-			<style>
-				.topnav {
-    					overflow: hidden;
-   					background-color: #333333;
-  				}
-				
-				body {
-					background-color: #595959;
-				}
-				
-				.mt-1 {
-					border-radius: 25px;
-					background-color: white;
-				}
-				
-				.sm-1 {
-					border-radius: 25px;
-					background-color: lightgray;
-				}
-  
-			       .topnav a {
-    					float: left;
-    					color: #f2f2f2;
-    					text-align: center;
-   					padding: 14px 16px;
-    					text-decoration: none;
-    					font-size: 17px;
-  				}
-  
-  				.topnav a:hover {
-    					background-color: #ddd;
-    					color: black;
-  				}
-				
-				h1 {
-					text-align: center;
-					font-family: sans-serif;
-				}
-				
-				.midtextjoe {
-					font-family: sans-serif;
-				}
-				
-				.containertext {
-					font-family: sans-serif;
-				}
-				
-				.midtext2 {
-					font-family: sans-serif;
-				}
-				
-				.textjoe {
-					color: black;
-					font-family: sans-serif;
-				}
-				
-				.thickjoe {
-					font-weight: bold;
-				}
-				
-				.tablejoe {
-					width: 50%;
-  					margin-left: auto;
-  					margin-right: auto;
-					border: 1px ridge black;
-				}
-				
-				button {
-					text-align: center;
-				}
-				
-				a {					
-					font-family: sans-serif;
-					text-decoration: underline;
-					color: darkblue;
-				}
-				
-				td {
-					font-family: sans-serif;
-					font-weight: 3;
-					border: 1px solid black;
-				}
-				
-				.majorname {
-					text-decoration: underline;
-				}
-				
-				img {
-					height: 400px;
-					display: block;
- 				        margin-left: auto;
-  					margin-right: auto;
-					/* Found another way to center on W3schools! */
-				}
-				
-				li {
-					font-family: sans-serif;
-					margin-top: 10px;
-    					margin-left: 10px;
-    					margin-right: 100px;
-				        margin-bottom: 10px;
-				}
-				
-				a:hover {
-					color: blueviolet;
-					font-weight: 1;
-				}
-				
-				.boxlink {
-					color: black;
-				}
-				
-				.boxlink:hover {
-					color: white;
-					background-color: black;
-					font-weight: 1;
-				}
-				
-			</style>
-
+			<link rel="stylesheet" href="joe.css"> <!--former Internal CSS-->
 			<title>Team 4, B IMD 233 w/ CSS </title>
-
-			<!--Mark Comment: move the navbar to the body section.-->
-			
 		</head>
 		<body>
 			<div class="topnav">
@@ -147,9 +24,8 @@
             			<strong>Did you know...?</strong>
             			<br>
 				Joe writes for <em>The Husky Herald</em>, UWB's campus newspaper. <a href="https://thehuskyherald.com/">Click here to learn more.</a>
-        			</div>
+        		</div>
 			</span>
-			
 			<div class="container mt-1">
 			<div class="jumbotron">
 			<h1>My Name is Joe Lollo</h1>
@@ -176,7 +52,7 @@
 			</ol>
 				
 			<hr>
-			Here's a new table: I recently went on a random hex color generator, and challenged myself to assign new names to the first 6 colors I generated. Here's the result.
+			Here's a new table: I recently went on a random hex color generator, and challenged myself to assign new names to color I generate. Here's the results.
 			<center>
 			<table class="tablejoe">
 			<tr>
@@ -184,8 +60,11 @@
 				<td><strong>Color Name:</strong></td>	
 			</tr>
 			<tr>
+				<td style="background-color: #FF3500; color: white">#FF3500</td>
+				<td>Gulag Debris</td>
+			</tr>
+			<tr>
 				<td style="background-color: #FB8136; color: white">#FB8136</td>
-				<!--Mark Comment: class instead of id again. ids are unique!-->
 				<td>President Forty-Five</td>
 			</tr>
 			<tr>
@@ -193,28 +72,26 @@
 				<td>Insufferable Vegan Green</td>
 			</tr>
 			<tr>
-				<td style="background-color: #BB7796; color: white">#BB7796</td>
-				<td>Days of Fuchsia Passed</td>
-			</tr>
-			<tr>
 				<td style="background-color: #4D8FAC; color: white">#EBF6F7</td>
 				<td>Bluepilled</td>
 			</tr>
 			<tr>
-				<td style="background-color: #FF3500; color: white">#FF3500</td>
-				<td>Gulag Debris</td>
+				<td style="background-color: #003171; color: white">#003171</td>
+				<td>Indigo Fund Me</td>
 			</tr>
 			<tr>
-				<td style="background-color: #28006D; color: white">#28006D</td>
-				<td>Indigo Fund Me</td>
+				<td style="background-color: #BB7796; color: white">#BB7796</td>
+				<td>Days of Fuchsia Passed</td>
+			</tr>
+			<tr>
+				<td style="background-color: #F47983; color: white">#F47983</td>
+				<td>I Identify as Blue</td>
 			</tr>
 			</table>
 			</center>
-				
-			<p class="textjoe">Finally, here's an image:</p>
+			<p id="textjoe">Finally, here's an image:</p>
 			<img src="https://s3-us-west-2.amazonaws.com/uw-s3-cdn/wp-content/uploads/sites/6/2012/03/04215201/03_26_07_KS_01.jpg" width="500" alt="The cherry blossoms at the University of Washington's Quadrangle (Quad), pink-tinted trees in the springtime with students walking around them." title="UW Cherry Blossoms">
-			
-			<div class="container sm-1"><!--Boostrap Flexboxes-->
+			<!--Boostrap Flexboxes-->
 				<h2 style="text-align: center">Flexboxes!</h2>
 				<p style="text-align: center">I listed 3 random things. Click the one you like for a surprise.</p>
 			        <div class="d-flex p-3 bg-secondary text-white">
@@ -236,8 +113,8 @@
 				<br>
 				<br>
 				<div class="alert alert-danger">
-					<strong>ALERT!</strong><br>
-					You have made it to the end of this page.</div>
+					<strong>ALERT!</strong><br>You have made it to the end of this page.
+				</div>
 			</div>
 		</body>	
 	</html>
