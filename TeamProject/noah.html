@@ -64,12 +64,11 @@
 				.jumbotron{
 					padding: 20px;
 				}
-				.m-1{
-					
-					display: inline-block;
+				.mt-2{
+					border-style: ridge;
+					display: block;
 					text-align: center;
-					margin-right: 40px;
-					padding-right: 40px;
+					background-color: palegoldenrod;
 				}
 				.d-flex div{
 					font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -94,13 +93,18 @@
 					text-align: center;
 				}
 				table{
-    display: block;
-    margin:auto;
-    box-shadow: 10px 10px 15px #4b2e83;
-    border: lightblue;
-    width: 500;
-}
-				
+   					 display: block;
+   					 margin:auto;
+  					  box-shadow: 10px 10px 15px #4b2e83;
+   					 border: lightblue;
+  					  width: 500;
+					}
+		h2{
+			font-family: Verdana, Geneva, Tahoma, sans-serif;
+			font-size: x-large;
+			text-shadow: 10px 10px 10px lightslategray;
+			text-align: center;
+		}		
 				
 				
 			</style>
@@ -193,7 +197,9 @@
 			</tr>
 </table>
 		</div>
-		<p>Here is a list of my favorite sports teams! (in a flexbox)</p>
+		</div>
+		<div class="container mt-1">
+		<h2><strong>Here is a list of my favorite sports teams! (in a flexbox)</strong></h2>
 		<!--Flexbox time lets go Major W-->
 		<div class="jumbotron">
 		<div class="container m-1">
@@ -202,11 +208,13 @@
 			<div class="p-2 bg-important">Seattle Mariners - 0x Champs</div>
 			<div class="p-2 bg-success">Seattle Seahawks - 1x Champs</div>
 			<div class="p-2 bg-warning">Los Angeles Lakers - 17x Champs </div>
-			<div class="p-2 bg-danger">Seattle Sounders - 2x Champs</div>
+			<div class="p-1 bg-danger">Seattle Sounders - 2x Champs</div>
 		  </div>
 		  </div>
 		</div>
 	</div>
+</div>
+    <div class="container mt-1">
 	<div id="buttons">
 	<div class="d-flex p-3 bg-secondary text-white">
 			<button type="button" class="btn btn-success"><a style="color:white" class="button-link" href="https://open.spotify.com/user/885mvjm78pwc38949cylayng5?si=o0gOuHiFSFW5VljxYllYqw" target="_blank">Spotify</a></button>
@@ -216,17 +224,18 @@
 			<button type="button" class="btn btn-danger"><a style="color:white" class="button-link" href="https://discordapp.com/users/473388274371657730/" target="_blank">Discord</a></button>
 		</div>
 	</div>	
-
-		
+</div>
+		<div class="container mt-2">
 		<!--Mark Comment: for text, color change is just the color property, not text-color.-->
 			<h2 style ="text-align:center"> <p style="color:Purple">Last but not least my favorite sports images ever! </p></h2>
 			<div id="imgDiv">
 			<img src="https://i.pinimg.com/originals/8f/82/f1/8f82f19b9dde87fafbd3dc4e8199b2a1.gif" alt="Bautista walk off home run" title="Walk off bomb!" id="baseball">
 			</div>
-		</div>
+		
 		
 		}
 			<!--Noah's part end-->
 		</span>
+	</div>
 		</body>	
 		</html>
