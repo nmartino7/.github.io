@@ -30,93 +30,11 @@ body {
     color: black;
   }
   
-  /* .topnav a.active { (don't touch)
+    .topnav a.active { (don't touch)
     background-color: #4c77af;
     color: white;
   } */
 
-/* Joe's page, this section is all done by Joe */
-#bgcolorjoe {
-    background-color: #C90016;
-}
-/* text for page */
-#textjoe{ 
-    font-family: "Comic Sans MS", sans-serif;
-    color: #FFFFFF;
-    margin-top: 10px;
-    margin-left: 20px;
-    margin-right: 150px;
-    margin-bottom: 10px;
-}
-/* These next two things I added for everyone to show how external CSS can be used. */
-table {
-    	border: solid purple;
-}
-
-ul {
-	list-style-type: square;
-	padding: 1;
-}
-
-/* Bootstrap stuff: */
-.alert {
-    position: relative;
-    padding: .75rem 1.25rem;
-    margin-bottom: 1rem;
-    border-radius:.25rem;
-}
-
-.alert-success {
-    color: darkslategray;
-    background-color: palegreen;
-    border: 1px ridge darkslategray;
-}
-
-.alert-info {
-    color: darkblue;
-    background-color: paleturquoise;
-    border: 1px ridge darkblue;
-}
-
-.jumbotron {
-	padding:2rem 1rem;
-	margin-bottom:2rem;
-	background-color:lightpink;
-	border-radius:.3rem
-}
-
-.container-mt-3 { /*Flexbox container*/
-	
-}
-
-p-2 { /*Flexbox padding (note: this was pasted from w3schools because it was hard to get done)*/
-	padding:.5rem;
-}
-/*Flexboxes:*/
-bg-success {
-	background-color:green;
-}
-
-bg-danger {
-	background-color: red;
-}
-
-bg-warning {
-	background-color: gold;
-}
-
-d-flex {
-	display:-ms-flexbox;
-	display:flex;
-}
-
-d-inline-flex {
-	display:-ms-inline-flexbox;
-	display:inline-flex;
-}
-/*^^^I learned all this from w3schools but it's not a direct copy/paste.*/
-
-/* End of what Joe did */
 
 /* Dylan's page */
 
@@ -364,27 +282,3 @@ d-inline-flex {
 
 /* End of Dylan's page */
 
-/* Ethan's page */
-#bgethan {
-    background-image:url(https://ogden_images.s3.amazonaws.com/www.observertoday.com/images/2020/08/29003327/SUNSET-scaled.jpg);
-    background-repeat: no-repeat;
-    background-size: auto;
-}
-/* text for page */
-#textethan{
-    font-family: verdana;
-    font-size: 20px;
-    /* text-align: center; */
-}
-
-/* Noah's page */
-#bgnoah {
-    background-image:url(https://www.amtrakvacations.com/sites/amtrak/files/styles/hero/public/images/seattle.jpg?h=5a5fc591&itok=u7M-pblq);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-/* text for page */
-
-    /* text-align: center; */
-}
