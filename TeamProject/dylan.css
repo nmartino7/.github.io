@@ -6,7 +6,14 @@ body {
     background-color: #DDCEE0;
 }
 /* Nav bar (don't touch)*/
+
+div {
+    
+    background-color: #cccccc;
+}
+
 body {
+    background-image: url("https://wallpaperaccess.com/full/723262.gif");
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
   }
