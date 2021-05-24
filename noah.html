@@ -8,8 +8,10 @@
 	<meta name="description" content="">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 <!--Mark Comment 5/23: Bootstrap should appear before other .css links.-->
-	<link rel="stylesheet" href="css/noah.css">
+<!--Noah Fixed 5/24-->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/noah.css">
+	
 
 
 
@@ -28,14 +30,14 @@
 <body id="bgnoah">
 		<!--Mark Comment 5/23: The span tag is supposed to be used for spans of text within paragraphs, divs, or other blocks of text, not as a wrapper for other elements. Change span to div.-->
 
-	<span id="textnoah">
+	<div id="textnoah">
 		<div class="topnav">
 					<!--Mark Comment 5/23: Usually the class active is reserved for whichever is the current page so in this case it should be applied to the fifth link.-->
-			<a class="active" href="index.html">Home</a>
+			<a href="index.html">Home</a>
 			<a href="joe.html">Joe Lollo</a>
 			<a href="dylan.html">Dylan Dang</a>
 			<a href="ethan.html">Ethan Krueger</a>
-			<a href="noah.html">Noah Martino</a>
+			<a class="active" href="noah.html">Noah Martino</a>
 		</div>
 		<!--Noah's part start-->
 
@@ -66,7 +68,7 @@
 			<div id="table1">
 				<!--Mark Comment: try adding border and width to the table's stylesheet.-->
 				<!--Mark Comment 5/23: I sort of expect you to do changes that I suggest from previous assignments.-->
-				<table style="background-color:lightblue" border="2" width="500">
+				<table style="background-color:lightblue" border="2" >
 					<tr>
 						<td width="50%"><strong>Hobby</strong></td>
 						<td width="50%"> <strong>How often</strong></td>
@@ -93,7 +95,7 @@
 			<p style="text-align:center">I saw that Ethan did a sports favorites list, I am going to do the same but
 				with my opinion on the sports</p>
 			<div id="table2">
-				<table style="background-color:lightblue" border="2" width="500">
+				<table style="background-color:lightblue" border="2">
 
 					<tr>
 						<td width="50%"><strong>Sport</strong></td>
@@ -161,7 +163,7 @@
 		<div class="container mt-2">
 			<!--Mark Comment: for text, color change is just the color property, not text-color.-->
 			<h2 style="text-align:center">
-				<p style="color:Purple">Last but not least my favorite sports images ever! </p>
+				<p style="text-color:Purple">Last but not least my favorite sports images ever! </p>
 			</h2>
 			<div id="imgDiv">
 				<img src="https://i.pinimg.com/originals/8f/82/f1/8f82f19b9dde87fafbd3dc4e8199b2a1.gif"
@@ -172,7 +174,7 @@
 			}
 			<!--Noah's part end-->
 			<!--Mark Comment 5/23: Switch these closing span and div tags. But also, see above about changing your spans to divs. And finally, please check for problems in the debug panel before submitting work!-->
-	</span>
+		</div>
 	</div>
 </body>
 

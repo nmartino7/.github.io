@@ -124,7 +124,7 @@ table{
         margin:auto;
         box-shadow: 10px 10px 15px #4b2e83;
         border: lightblue;
-        width: 500;
+        width: fit-content;
     }
     
 h2{
@@ -138,3 +138,6 @@ text-align: center;
 display: block;
 background-color: palegoldenrod;
 }	
+td{
+    width: 50%;
+}
