@@ -8,27 +8,21 @@
 	<title>Team 4, B IMD 233 w/ Bootstrap! </title>
 	<meta name="description" content="">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-		<!--Mark Comment 5/23: Bootstrap should appear before other .css links.-->
-	<link rel="stylesheet" href="css/joe.css">
-	<!--former Internal CSS-->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/joe.css">
+	<!--former Internal CSS-->
 </head>
 
 <body style="background-color:#595959">
 	<!--When I switched over, my background was gone. This fixed it.-->
 	<div class="topnav">
-		<!--Mark Comment 5/23: Usually the class active is reserved for whichever is the current page so in this case it should be applied to the second link.-->
-		<a class="active" href="index.html">Home</a>
-		<a href="joe.html">Joe Lollo</a>
+		<a href="index.html">Home</a>
+		<a class="active" href="joe.html">Joe Lollo</a>
 		<a href="dylan.html">Dylan Dang</a>
 		<a href="ethan.html">Ethan Krueger</a>
 		<a href="noah.html">Noah Martino</a>
 	</div>
-
-		<!--Mark Comment 5/23: The span tag is supposed to be used for spans of text within paragraphs, divs, or other blocks of text, not as a wrapper for other elements. Change span to div.-->
-
-	<span>
 		<div class="alert alert-info">
 			<!--Bootstrap alert-->
 			<strong>Did you know...?</strong>
@@ -36,11 +30,10 @@
 			Joe writes for <em>The Husky Herald</em>, UWB's campus newspaper. <a
 				href="https://thehuskyherald.com/">Click here to learn more.</a>
 		</div>
-	</span>
 	<div class="container mt-1">
 		<div class="jumbotron">
 			<h1>My Name is Joe Lollo</h1>
-			<p id="textjoe">And I'm taking B IMD 233, Web Programming, this quarter. My <a
+			<p class="textjoe">And I'm taking B IMD 233, Web Programming, this quarter. My <a
 					href="https://pronoun.is/they">pronouns are they/them</a>.</p>
 			<h2 class="midtextjoe">I <em>might</em> already know HTML...</h2>
 			<h3 class="midtext2">...but I'm taking this class to learn JS, CSS, and GitHub! This is the updated version
@@ -64,9 +57,8 @@
 					It's a combination of my age/birth year and the fact that I used to play chess when I was younger.
 				</li>
 			</ul>
-
-			<!--Mark Comment 5/23: ids must be unique; don't assign the same id to more than one element!-->
-			<p id="textjoe">My Ranking of the 4 <a class="majorname"
+			
+			<p class="textjoe">My Ranking of the 4 <a class="majorname"
 					href="https://www.reddit.com/r/Schurniverse/">Schurniverse Sitcoms:</a></p>
 			<ol>
 				<li><em>Parks & Rec</em>: Absolutely iconic, so many great characters and moments. Score:
@@ -84,8 +76,6 @@
 			<hr>
 			Here's a new table: I recently went on a random hex color generator, and challenged myself to assign new
 			names to color I generate. Here's the results.
-			<!--Mark Comment 5/23: the center tag is no longer a valid tag (even though modern browsers still work with it). Replace through CSS.-->
-			<center>
 				<table class="tablejoe">
 					<tr>
 						<td><strong>Hex Code:</strong></td>
@@ -121,7 +111,7 @@
 					</tr>
 				</table>
 			</center>
-			<p id="textjoe">Finally, here's an image:</p>
+			<p class="textjoe">Finally, here's an image:</p>
 			<img src="https://s3-us-west-2.amazonaws.com/uw-s3-cdn/wp-content/uploads/sites/6/2012/03/04215201/03_26_07_KS_01.jpg"
 				width="500"
 				alt="The cherry blossoms at the University of Washington's Quadrangle (Quad), pink-tinted trees in the springtime with students walking around them."
@@ -158,7 +148,7 @@
 				<strong>ALERT!</strong><br>You have made it to the end of this page.
 			</div>
 		</div>
-		<!--Mark Comment 5/23: Seem to missing a closing div tag. Also be sure to look for problems in the debug panel before submitting!-->
+	</div>
 </body>
 
 </html>
