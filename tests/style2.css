@@ -1,3 +1,10 @@
+@font-face {
+    font-family: signatria;
+    src: url(fonts/signatria-regular.woff);
+    font-weight: bold;
+  }
+
+
 body{
     background-image: url(https://media.wired.co.uk/photos/606da0c989f3babb1f0133fb/master/w_1600%2Cc_limit/Lava.jpg);
 }
@@ -8,4 +15,5 @@ body{
 h3{
     font-size: x-large;
     text-align: center;
+    font-family: Catchland PERSONAL USE ONLY PERSONAL USE ONLY;
 }

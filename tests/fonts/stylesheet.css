@@ -1,0 +1,52 @@
+@font-face {
+    font-family: 'Prequel Demo Shadow';
+    src: url('PrequelDemo-ShadowItalic.eot');
+    src: url('PrequelDemo-ShadowItalic.eot?#iefix') format('embedded-opentype'),
+        url('PrequelDemo-ShadowItalic.woff2') format('woff2'),
+        url('PrequelDemo-ShadowItalic.woff') format('woff'),
+        url('PrequelDemo-ShadowItalic.ttf') format('truetype'),
+        url('PrequelDemo-ShadowItalic.svg#PrequelDemo-ShadowItalic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Signatria';
+    src: url('Signatria-Regular.eot');
+    src: url('Signatria-Regular.eot?#iefix') format('embedded-opentype'),
+        url('Signatria-Regular.woff2') format('woff2'),
+        url('Signatria-Regular.woff') format('woff'),
+        url('Signatria-Regular.ttf') format('truetype'),
+        url('Signatria-Regular.svg#Signatria-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Vintages';
+    src: url('Vintages.eot');
+    src: url('Vintages.eot?#iefix') format('embedded-opentype'),
+        url('Vintages.woff2') format('woff2'),
+        url('Vintages.woff') format('woff'),
+        url('Vintages.ttf') format('truetype'),
+        url('Vintages.svg#Vintages') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Milestone Free Version Script';
+    src: url('MilestoneFreeVersion-Script.eot');
+    src: url('MilestoneFreeVersion-Script.eot?#iefix') format('embedded-opentype'),
+        url('MilestoneFreeVersion-Script.woff2') format('woff2'),
+        url('MilestoneFreeVersion-Script.woff') format('woff'),
+        url('MilestoneFreeVersion-Script.ttf') format('truetype'),
+        url('MilestoneFreeVersion-Script.svg#MilestoneFreeVersion-Script') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
