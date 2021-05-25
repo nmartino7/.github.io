@@ -6,7 +6,7 @@
 
 
 body{
-    background-image: url(https://media.wired.co.uk/photos/606da0c989f3babb1f0133fb/master/w_1600%2Cc_limit/Lava.jpg);
+    background-color: white;
 }
 .iframe-container{
     text-align: center;
@@ -74,3 +74,67 @@ h2{
 .col-5:hover{
     box-shadow: 0 14px 28px rgba(204, 12, 12, 0.25), 0 10px 10px rgba(205, 218, 33, 0.22);
 }
+.parallax {
+    /* The image used */
+    background-image: url("https://www.langan.com/wp-content/uploads/2020/01/Seattle-996x554-1.jpg");
+  
+    /* Set a specific height */
+    min-height: 500px;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  ul {
+    list-style-type: no;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+
+  }
+
+  .nav-item{
+    display: inline-block;
+    text-align: center;
+  }
+  .navbar-nav {
+  display:table;
+  width:100%;
+  margin: 0;
+}
+.navbar-nav > li {
+  float:none;
+  display:table-cell;
+  text-align:center;
+}
+  li a {
+    display: block;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 16px 75px;
+    text-decoration: none;
+  }
+
+  li a:hover {
+    background-color: rgb(199, 16, 16);
+  }
+
+  .active {
+    background-color: #dc143c;
+  }
+
+  #about {
+    padding-left: 5%;
+    padding-right: 5%;
+    display: inline-block;
+  }
+
+  p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20;
+  }
+
+
