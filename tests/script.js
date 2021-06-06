@@ -1,33 +1,10 @@
-$(function() {
-  
-    // contact form animations
-    $('#contact').click(function() {
-      $('#contactForm').fadeToggle();
-    })
-    $(document).mouseup(function (e) {
-      var container = $("#contactForm");
-  
-      if (!container.is(e.target) // if the target of the click isn't the container...
-          && container.has(e.target).length === 0) // ... nor a descendant of the container
-      {
-          container.fadeOut();
-      }
-    });
-    
-  });$(function() {
-  
-  // contact form animations
-  $('#contact').click(function() {
-    $('#contactForm').fadeToggle();
-  })
-  $(document).mouseup(function (e) {
-    var container = $("#contactForm");
+$("#slideshow > div:gt(0)").hide();
 
-    if (!container.is(e.target) // if the target of the click isn't the container...
-        && container.has(e.target).length === 0) // ... nor a descendant of the container
-    {
-        container.fadeOut();
-    }
-  });
-  
-});
+setInterval(function() {
+  $('#slideshow > div:first')
+    .fadeOut(1000)
+    .next()
+    .fadeIn(1000)
+    .end()
+    .appendTo('#slideshow');
+}, 3000);
