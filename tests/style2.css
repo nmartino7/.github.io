@@ -15,7 +15,7 @@ body{
 h3{
     font-size: xx-large;
     text-align: center;
-    font-family: 'Impact';
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 .col-sm img{
     box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px;
@@ -27,7 +27,7 @@ h3{
 h2{
     font-size: xx-large;
     text-align: center;
-    font-family: 'Impact';
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 #buttons{
    text-align: center;
@@ -43,12 +43,6 @@ h2{
     border-radius: 20px;
     background-color:white;
     
-}
-.d-flex div{
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size:  xx-large;
-    align-content: center;
-    color: indigo;
 }
 .button {
     height: 100px;
@@ -76,7 +70,7 @@ h2{
 }
 .parallax {
     /* The image used */
-    background-image: url("https://www.langan.com/wp-content/uploads/2020/01/Seattle-996x554-1.jpg");
+    background-image: url("https://assets.simpleviewinc.com/simpleview/image/fetch/c_fill,g_auto,h_750,q_50,w_1920/https://assets.simpleviewinc.com/simpleview/image/upload/crm/seattlesouthside/Wenatchee-Valley-Columbia-River-JDSA-Law-37f0c186dde2d64_37f0c44c-bd7e-7408-4851fc4c1a3ee257.jpg");
   
     /* Set a specific height */
     min-height: 500px;
@@ -133,7 +127,7 @@ h2{
   }
 
   p {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
     font-size: 20;
   }
 

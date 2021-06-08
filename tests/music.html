@@ -10,11 +10,11 @@
   <style>
     body {
       font-size: 14px;
-      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     }
     .parallax {
     /* The image used */
-    background-image: url("https://djbooth.net/.image/t_share/MTU5NTgwNDUxODIyOTA1MDA4/mac-miller-benefit-show-celebration-of-life.jpg");
+    background-image: url("https://georgetownvoice.com/wp-content/uploads/2015/12/mac3.jpg");
   
     /* Set a specific height */
     min-height: 500px;
@@ -25,6 +25,19 @@
     background-repeat: no-repeat;
     background-size: cover;
   }
+  #headIndex {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 400px;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      font-size: 1000%;
+      text-shadow: 5px 5px 5px black;
+      color: blanchedalmond;
+    } 
+    h2{
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
   </style>
 </head>
 
@@ -48,8 +61,9 @@
     <button type="button" class="btn btn-success"><a href="https://open.spotify.com/playlist/5zJU1va6HJu4Fa24WGKuAh" target="_blank">Playlist!</a> </button>
   </div>
   <div class="parallax">
-
+  <h2 id="headIndex">Music</h2>
   </div>
+  
   <div class="shadow-lg m-5 bg-white" style="border-style: round;">
     <h1 style="text-align: center;">MUSIC</h1>
     <h3 style="text-align: center;">Here are a couple different ways of categorizing my favorite music!</h3>
@@ -59,7 +73,7 @@
     <h2 style="text-align: center;">1-9 ranking of my favorite artists</h2>
     <br>
     <br>
-    <div class="container" id="music1">
+    <div class="container d-flex" id="music1">
       <div class="row">
         <div class="col-sm">
         </div>
@@ -79,7 +93,7 @@
         </div>
       </div>
     </div>
-    <div class="container" id="music2">
+    <div class="container d-flex" id="music2">
       <div class="row flex-nowrap">
         <div class="col-sm">
         </div>
